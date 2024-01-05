@@ -25,7 +25,7 @@ async function translateText() {
   try {
     const response = await fetch(url, options);
     const result = await response.json(); // Parse the response as JSON
-    console.log(result);
+    // console.log(result);
 
     // Check if the status is "success" and data contains translatedText
     if (
